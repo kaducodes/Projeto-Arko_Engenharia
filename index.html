@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arko Engenharia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="inicio" id="inicio">
+        <div class="texto-inicio">
+            <h1>Arko Engenharia</h1>
+            <p>Engenharia criativa trazendo soluções reais</p>
+        </div>
+        <div class="texto-justificativa">
+            <p>
+                Nascemos do desejo de facilitar o entendimento do 
+                processo da sua construção aplicando tecnologia.
+            </p>
+        </div>
+        <div class="cards">
+            <ul>
+                <li>
+                    <h3>Projeto Arquitetônico</h3>
+                    <p>
+                        O Projeto mãe da sua obra, de onde todos 
+                        os outros se referenciam. Prevê as melhores
+                        disposições dos ambientes com o uso previsto
+                        e a área disponível
+                    </p>
+                </li>
+                <li>
+                    <h3>Projeto Estrutural</h3>
+                    <p>
+                        O Projeto que prevê a 
+                        Segurança/Durabilidade/Economia da estrutura 
+                        da sua edificação.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <form class="inputs">
+            <div class="terreno">
+                <label for="txtterreno">Área do Terreno: </label>
+                <input type="number" name="txtterreno" id="txtterreno">   
+            </div>
+            <div class="construida">
+                <label for="txtconstruida">Área Construída: </label>
+                <input type="number" name="txtconstruida" id="txtconstruida">  
+            </div>
+            <div class="botao-indices">
+                <input type="button" value="Calcular Índices" onclick="indices()">
+            </div>
+            <div id="res"></div>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
