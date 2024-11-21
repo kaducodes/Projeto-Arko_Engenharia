@@ -8,6 +8,17 @@
 </head>
 <body>
     <section class="inicio" id="inicio">
+        <header class="head" id="head">
+            <nav>
+                <ul>
+                    <li href="#inicio" id="link-to-inicio">Início</li>
+                    <li href="#metricas" id="link-to-metricas">Métricas</li>
+                    <li href="#servicos" id="link-to-servicos">Serviços</li>
+                    <li href="#contato" id="link-to-contato">Contato</li>
+                    <li href="#sobre" id="link-to-sobre">Sobre</li>
+                </ul>
+            </nav>
+        </header>
         <div class="texto-inicio">
             <h1>Arko Engenharia</h1>
             <p>Engenharia criativa trazendo soluções reais</p>
@@ -18,6 +29,39 @@
                 processo da sua construção aplicando tecnologia.
             </p>
         </div>
+    </section>
+
+    <section class="metricas" id="metricas">
+        <form class="form-metricas">
+            <div>
+                <h2>Métricas</h2>
+                <p>Métricas da Edificação que te ajudarão a compreender melhor os custos necessários e consequente ajustar sua edificação para sua realidade.</p>
+            </div>
+            <div class="padrao">
+                <label for="txtpadrao">Padrão: </label>
+                <select name="txtpadrao" id="txtpadrao">
+                    <option value="baixo">Baixo</option>
+                    <option value="medio">Médio</option>
+                    <option value="alto">Alto</option>
+                </select>
+            </div>
+            <div class="terreno">
+                <label for="txtterreno">Área do Terreno: </label>
+                <input type="number" name="txtterreno" id="txtterreno">   
+            </div>
+            <div class="construida">
+                <label for="txtconstruida">Área Construída: </label>
+                <input type="number" name="txtconstruida" id="txtconstruida">  
+            </div>
+            <div class="botao-indices">
+                <input type="button" value="Calcular Índices" onclick="indices()">
+            </div>
+            <div id="res"></div>
+        </form>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <h1>Serviços</h1>
         <div class="cards">
             <ul>
                 <li>
@@ -41,21 +85,12 @@
         </div>
     </section>
 
-    <section>
-        <form class="inputs">
-            <div class="terreno">
-                <label for="txtterreno">Área do Terreno: </label>
-                <input type="number" name="txtterreno" id="txtterreno">   
-            </div>
-            <div class="construida">
-                <label for="txtconstruida">Área Construída: </label>
-                <input type="number" name="txtconstruida" id="txtconstruida">  
-            </div>
-            <div class="botao-indices">
-                <input type="button" value="Calcular Índices" onclick="indices()">
-            </div>
-            <div id="res"></div>
-        </form>
+    <section class="contato" id="contato">
+        <h1>Contato</h1>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <h1>Sobre</h1>
     </section>
 
     <script src="script.js"></script>
