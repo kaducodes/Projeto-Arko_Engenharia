@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+
+head {
+    top: 0;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+}
+
+head li {
+    cursor: pointer;
+}
+
+body {
+    font-family: "Roboto", "sans-serif";
+    color: azure;
+    background-color: #73c988;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.inicio {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+
+.texto-inicio h1 {
+    font-size: 60px;
+}
+
+.texto-inicio p {
+    font-size: 40px;
+}
+
+.texto-justificativa p {
+    font-size: 30px;
+}
+
+.metricas {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+
+.servicos {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+
+.contatos {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
