@@ -38,13 +38,13 @@ header {
 }
 
 header > .img-logo > img {
-    border: 1px dotted #000000; /* Só para identificar no site */
+    /*border: 1px dotted #000000;  Só para identificar no site */
 
     width: 200px;
 }
 
 header > nav {
-    border: 1px dotted #000000; /* Só para identificar no site */
+    /*border: 1px dotted #000000;  Só para identificar no site */
     text-align: center;
     width: 800px;
 
@@ -52,7 +52,7 @@ header > nav {
 }
 
 nav > a {
-    border: 1px dotted #000000; /* Só para identificar no site */
+    /*border: 1px dotted #000000;  Só para identificar no site */
     font-size: 1.4em;
     text-align: center;
     text-decoration: none;
@@ -108,12 +108,12 @@ main .texto-justificativa {
 /* CARDS */
 
 .cards {
-    border: 1px dotted #ffffff; /* Só para identificar no site */
+    /*border: 1px dotted #ffffff;  Só para identificar no site */
     padding: 10px 20px;   
 }
 
 .cards ul {
-    border: 1px dotted #ffffff; /* Só para identificar no site */
+    /*border: 1px dotted #ffffff;  Só para identificar no site */
 
     display: flex;
     flex-flow: row wrap;
@@ -124,7 +124,7 @@ main .texto-justificativa {
 }
 
 .cards ul li {
-    border: 1px dotted #ffffff; /* Só para identificar no site */
+    /*border: 1px dotted #ffffff;  Só para identificar no site */
     background-color: #748C5D;
     list-style: none;
     text-align: center;
