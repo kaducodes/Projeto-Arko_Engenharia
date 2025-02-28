@@ -10,7 +10,7 @@ Tipycal Device Breakpoints (mais atualizadas, de 2024):
     Ultra Grandes Dispositivos (TVs e Monitores 4k): acima de 1536px
 */
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 640px) {
     header , header > nav {
         flex-flow: column wrap;
         justify-content: space-between;
