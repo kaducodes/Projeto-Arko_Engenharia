@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor0: #395919;
+    --cor1: #748C5D;
+    --cor2: #E5F2D8;
+    --cor3: #F2F2F2;
+    --cor4: #0D0D0D;
+    --cor5: #333333;
+
+    --font0: "Bebas Neue", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font0);
+    color: var(--cor4);
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor5);
+}
+
+/* HEADER */
+
+header {
+    background-color: #ffffff;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .img-logo > img {
+    border: 1px dotted #000000; /* Só para identificar no site */
+
+    width: 200px;
+}
+
+header > nav {
+    border: 1px dotted #000000; /* Só para identificar no site */
+    text-align: center;
+    width: 800px;
+
+    display: flex;
+}
+
+nav > a {
+    border: 1px dotted #000000; /* Só para identificar no site */
+    font-size: 1.4em;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor4);
+    transition-duration: 0.5s;
+
+    flex-basis: 300px;
+}
+
+nav > a:hover {
+    background-color: var(--cor5);
+    color: var(--cor2);
+}
+
+/* IMAGEM DE APRESENTAÇÃO */
+
+.img-apresentacao {
+    display: flex;
+    justify-content: center;
+}
+
+/* MAIN */
+
+main {
+    background-color: #dbdbdb;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px #0000009c;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px 10px;
+}
+
+main p {
+    font-size: 1.2em;
+}
+
+main .texto-justificativa {
+    display: block;
+    text-align: justify;
+}
+
+.img-perfil {
+    display: flex;
+    justify-content: center;
+}
+
+/* CARDS */
+
+.cards {
+    border: 1px dotted #ffffff; /* Só para identificar no site */
+    padding: 10px 20px;   
+}
+
+.cards ul {
+    border: 1px dotted #ffffff; /* Só para identificar no site */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards ul li {
+    border: 1px dotted #ffffff; /* Só para identificar no site */
+    background-color: #748C5D;
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    font-size: 1.2em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--cor4);
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+footer p {
+    color: var(--cor3);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor2);
+    transition-duration: 0.5s;
+}
+
+footer a:hover {
+    background-color: var(--cor5);
+    color: var(--cor3);
+}
+
+.footer-menu-item-img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*
+Tipycal Device Breakpoints (mais atualizadas, de 2024):
+    ------------------------------
+    Pequenos Dispositivos (Mobile e Smartphones): até 640px
+    Médios Dispositivos (Tablets): 640px até 1023px
+    Grandes Dispositivos (Notebooks): 1024px até 1279px
+    Extra Grandes Dispositivos (Desktops): 1280px até 1535px
+    Ultra Grandes Dispositivos (TVs e Monitores 4k): acima de 1536px
+*/
+
+@media screen and (max-width: 1023px) {
+    header , header > nav {
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+
+    header > nav > a {
+        text-align: center;
+
+        flex-basis: 40px;        
+    }
+} 
